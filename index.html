@@ -14,8 +14,11 @@
 <body>
 
   <!-- Header with Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Logo</a>
+  <nav class="navbar navbar-expand-lg navbar-light ">
+    <div class="logo">
+      <a href=""><img src="/images/logo.png" alt="logo" ></a>
+    </div>
+    
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -23,7 +26,9 @@
       <ul class="navbar-nav ms-auto">
         <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#about" >About Us</a>
+        </li>
         <li class="nav-item">
           <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#cartModal">Cart <span id="cart-count">0</span></a>
         </li>
@@ -37,20 +42,115 @@
   <!-- Product Display Section -->
   <div class="container my-5">
     <div class="row">
+      <!-- Product 1 -->
       <div class="col-md-4 mb-4">
         <div class="card">
-          <img src="product1.jpg" class="card-img-top" alt="Product 1">
+          <img src="/images/product1.png" class="card-img-top" alt="Orient 56 Inch Quadro Ornamental Ceiling Fan">
           <div class="card-body">
-            <h5 class="card-title">Product 1</h5>
-            <p class="card-text">Short description of Product 1</p>
-            <p class="card-text">$19.99</p>
-            <button class="btn btn-primary add-to-cart" data-product="Product 1" data-price="19.99">Add to Cart</button>
+            <h5 class="card-title">Orient 56 Inch Quadro Ornamental Ceiling Fan</h5>
+            <p class="card-text">You'll get unparalleled performance with the Orient Quadro Ornamental Ceiling Fan. </p>
+            <p class="card-text">৳2999.99</p>
+            <button class="btn btn-primary add-to-cart" data-product="Orient 56 Inch Quadro Ornamental Ceiling Fan" data-price="2999.99">Add to Cart</button>
           </div>
         </div>
       </div>
+      <!-- product 1 -->
+
+      <!-- Product 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="/images/Product2.png" class="card-img-top" alt="Baseus Adaman Metal Digital Display Quick Charge Power Bank">
+          <div class="card-body">
+            <h5 class="card-title">Baseus Adaman Metal Digital Display Charge Power Bank 10000mAh 22.5W</h5>
+            <p class="card-text">The Baseus Power Bank PPAD000001 – Your On-the-Go Charging Companion!</p>
+            <p class="card-text">৳1700.00</p>
+            <button class="btn btn-primary add-to-cart" data-product="Baseus Adaman Metal Power Bank" data-price="1700.00">Add to Cart</button>
+          </div>
+          
+        </div>
+      </div>
+      <!-- Product 2 -->
+
+      <!-- Product 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="/images/Product3.png" class="card-img-top" alt="A4Tech FB35C Multimode Rechargeable Wireless Mouse">
+          <div class="card-body">
+            <h5 class="card-title">A4Tech FB35C Multimode Rechargeable Wireless Mouse</h5>
+            <p class="card-text">A4Tech FB35C Wireless Mouse offers a great experience. It is easy to use and comfortable to hold.</p>
+            <p class="card-text">৳299.99</p>
+            <button class="btn btn-primary add-to-cart" data-product="A4Tech FB35C Wireless Mouse" data-price="299.99">Add to Cart</button>
+          </div>
+          
+        </div>
+      </div>
+      <!-- Product 3 -->
+
+      <!-- Product 4 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="/images/Product4.png" class="card-img-top" alt="Fantech K612 Wired Gaming Keyboard Semi Mechanical">
+          <div class="card-body">
+            <h5 class="card-title">Fantech K612 Wired Gaming Keyboard Semi Mechanical</h5>
+            <p class="card-text">RGB Membrane Gaming keyboard, double injection pump, adjustable height</p>
+            <p class="card-text">৳500.00</p>
+            <button class="btn btn-primary add-to-cart" data-product="Fantech K612 Wired Gaming Keyboard" data-price="500.00">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <!-- Product 4 -->
+
+       <!-- Product 5 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="/images/Product5.png" class="card-img-top" alt="Fantech CG80 Black Middle Tower 4 Case Cooling">
+          <div class="card-body">
+            <h5 class="card-title">Fantech CG80 Black Middle Tower 4 Case Cooling</h5>
+            <p class="card-text">Thick steel structure, Tempered glass side panel Black</p>
+            <p class="card-text">৳2500.00</p>
+            <button class="btn btn-primary add-to-cart" data-product="Fantech CG80 Black Middle Tower 4 Case" data-price="2500.00">Add to Cart</button>
+          </div>
+          
+        </div>
+      </div>
+      <!-- Product 5 -->
+       
+      <!-- Product 6 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="/images/Product6.png" class="card-img-top" alt="Fantech GP12 Wired Gaming Controller">
+          <div class="card-body">
+            <h5 class="card-title">Fantech GP12 Wired Gaming Controller</h5>
+            <p class="card-text">You can immerse yourself in gaming with the Fantech GP12 USB Wired Gaming Controller, a testament to excellent quality and durability.</p>
+            <p class="card-text">৳2000.00</p>
+            <button class="btn btn-primary add-to-cart" data-product="Fantech GP12 Wired Gaming Controller" data-price="2000.00">Add to Cart</button>
+          </div>
+          
+        </div>
+      </div>
+      <!-- Product 6 -->
+
+
       <!-- Repeat for more products -->
     </div>
   </div>
+
+
+  <!-- Abuot Us -->
+  <div class="modal fade" id="about" tabindex="-1" aria-labelledby="about" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="about">About Us</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Learn more about our company and our mission to provide the best products and services to our customers.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <!-- Cart Modal -->
   <div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="cartModalLabel" aria-hidden="true">
@@ -71,6 +171,40 @@
       </div>
     </div>
   </div>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="container p-3">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+          <h5 >About Us</h5>
+          <p>
+            Learn more about our company and our mission to provide the best products and services to our customers.
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5>Links</h5>
+          <ul class="list-unstyled mb-0">
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5>Follow Us</h5>
+          <ul class="list-unstyled mb-0">
+            <li><a href="#" ><i class="fab fa-facebook-f"></i> Facebook</a></li>
+            <li><a href="#" ><i class="fab fa-twitter"></i> Twitter</a></li>
+            <li><a href="#" ><i class="fab fa-instagram"></i> Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="text-center py-1"><p> 2025 Shefat. All rights reserved.</p></div>
+    </div>
+    
+  </footer>
+
+  <!-- Font Awesome (for social media icons) -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
   <!-- Bootstrap JS (CDN) -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>

@@ -37,3 +37,5 @@ document.querySelectorAll('.add-to-cart').forEach(button => {
     addToCart(productName, price);
   });
 });
+
+
